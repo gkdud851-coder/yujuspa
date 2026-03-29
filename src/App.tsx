@@ -365,8 +365,15 @@ export default function App() {
           <div className="mt-10 space-y-8">
             {/* Google Maps Embed */}
             <div className="rounded-2xl overflow-hidden shadow-lg h-[350px] bg-gray-100">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1m4!1m3!1d1134.341416955099!2d106.694121!3d10.771221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3bf4b584d3%3A0xc023773e7f4c084!2s38%20L%C3%AA%20Lai%2C%20B%E1%BB%93n%20Th%C3%A0nh%2C%20Qu%E1%BB%ADn%201%2C%20H%E1%BB%93%20Ch%C3%AD%20Minh!5e0!3m2!1sko!2svn!4v1700000000000!5m2!1sko!2svn" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+<iframe
+  src="https://maps.google.com/maps?q=38%20Lê%20Lai,%20Bến%20Thành,%20Quận%201,%20Hồ%20Chí%20Minh&t=&z=16&ie=UTF8&iwloc=&output=embed"
+  width="100%"
+  height="450"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>            </div>
 
             <div className="text-center">
               <a href="지도.jpg" target="_blank" rel="noopener noreferrer" className="text-xs text-yuju-primary underline tracking-widest uppercase">

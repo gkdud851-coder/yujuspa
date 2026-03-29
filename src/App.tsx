@@ -380,12 +380,12 @@ export default function App() {
                 <div className="space-y-1">
                   <p className="text-xs font-bold text-yuju-primary uppercase tracking-widest">Address</p>
                   <p className="text-sm text-gray-600 leading-relaxed">
-                    123 Le Thanh Ton, District 1, Ho Chi Minh City, Vietnam
+                    38 Lê Lai, Bến Thành, Quận 1, Hồ Chí Minh, Vietnam
                   </p>
                 </div>
                 <div className="space-y-1">
                   <p className="text-xs font-bold text-yuju-primary uppercase tracking-widest">Phone</p>
-                  <a href="tel:+84903811251" className="text-sm text-gray-600 hover:text-yuju-primary transition-colors">
+                  <a href="tel:+84383811251" className="text-sm text-gray-600 hover:text-yuju-primary transition-colors">
                     +84 90 381 12 51
                   </a>
                 </div>

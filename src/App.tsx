@@ -393,7 +393,7 @@ export default function App() {
                 <div className="space-y-1">
                   <p className="text-xs font-bold text-yuju-primary uppercase tracking-widest">Phone</p>
                   <a href="tel:+84383811251" className="text-sm text-gray-600 hover:text-yuju-primary transition-colors">
-                    +84 90 381 12 51
+                    +84 383 811 251
                   </a>
                 </div>
               </div>
@@ -408,8 +408,8 @@ export default function App() {
             {/* Booking Channels */}
             <div id="booking" className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-xl mx-auto">
               <SocialBtn icon={<Instagram />} label="Insta" color="bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500" href="https://www.instagram.com/yuju.spa_hochiminh/" />
-              <SocialBtn icon={<MessageCircle />} label="WhatsApp" color="bg-[#25D366]" href="https://wa.me/84903811251" />
-              <SocialBtn icon={<Phone />} label="Call" color="bg-green-500" href="tel:+84903811251" />
+              <SocialBtn icon={<MessageCircle />} label="WhatsApp" color="bg-[#25D366]" href="https://wa.me/+84383811251" />
+              <SocialBtn icon={<Phone />} label="Call" color="bg-green-500" href="tel:+84383811251" />
             </div>
           </div>
         </section>

@@ -405,12 +405,30 @@ export default function App() {
               </button>
             </div>
 
-            {/* Booking Channels */}
-            <div id="booking" className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-xl mx-auto">
-              <SocialBtn icon={<Instagram />} label="Insta" color="bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500" href="https://www.instagram.com/yuju.spa_hochiminh/" />
-              <SocialBtn icon={<MessageCircle />} label="WhatsApp" color="bg-[#25D366]" href="https://wa.me/+84383811251" />
-              <SocialBtn icon={<Phone />} label="Call" color="bg-green-500" href="tel:+84383811251" />
-            </div>
+          {/* Booking Channels */}
+<div id="booking" className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-xl mx-auto">
+  <SocialBtn 
+    icon={<Instagram />} 
+    label="Insta" 
+    color="bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500" 
+    href="https://www.instagram.com/yuju.spa_hochiminh/" 
+    onClick={() => (window as any).gtag_report_conversion('https://www.instagram.com/yuju.spa_hochiminh/')}
+  />
+  <SocialBtn 
+    icon={<MessageCircle />} 
+    label="WhatsApp" 
+    color="bg-[#25D366]" 
+    href="https://wa.me/+84383811251" 
+    onClick={() => (window as any).gtag_report_conversion('https://wa.me/+84383811251')}
+  />
+  <SocialBtn 
+    icon={<Phone />} 
+    label="Call" 
+    color="bg-green-500" 
+    href="tel:+84383811251" 
+    onClick={() => (window as any).gtag_report_conversion('tel:+84383811251')}
+  />
+</div>
           </div>
         </section>
 

@@ -8,6 +8,20 @@
   gtag('js', new Date());
 
   gtag('config', 'AW-18053971245');
+
+  // 버튼 클릭을 추적하는 함수를 추가합니다.
+  function gtag_report_conversion(url) {
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18053971245', 
+        'event_callback': function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        }
+    });
+    return false;
+  }
+  
 </script>
     
     <meta charset="UTF-8" />
